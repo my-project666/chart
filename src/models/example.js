@@ -1,9 +1,10 @@
-import {login} from '../services/example'
+
 export default {
 
   namespace: 'login',
-
-  state: {},
+  state: {
+      
+  },
 
   subscriptions: {
     setup({ dispatch, history }) {  // eslint-disable-line
@@ -11,17 +12,15 @@ export default {
   },
 
   effects: {
-    *fetch({ payload }, { call, put }) {  // eslint-disable-line
-      const reuslt = yield call(login)
-      console.log(reuslt)
-      yield put({ type: 'save' });
+    *login({ payload }, { call, put}) {  // eslint-disable-line
+    
+      yield put({type:'add'})
+      
     },
   },
 
   reducers: {
-    save(state, action) {
-      return { ...state, ...action.payload };
-    },
+     
   },
 
 };

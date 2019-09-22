@@ -1,41 +1,7 @@
-// import fetch from 'dva/fetch';
-
-// function parseJSON(response) {
-//   return response.json();
-// }
-
-// function checkStatus(response) {
-//   if (response.status >= 200 && response.status < 300) {
-//     return response;
-//   }
-
-//   const error = new Error(response.statusText);
-//   error.response = response;
-//   throw error;
-// }
-
-// /**
-//  * Requests a URL, returning a promise.
-//  *
-//  * @param  {string} url       The URL we want to request
-//  * @param  {object} [options] The options we want to pass to "fetch"
-//  * @return {object}           An object containing either "data" or "err"
-//  */
-// export default function request(url, options) {
-//   return fetch(url, options)
-//     .then(checkStatus)
-//     .then(parseJSON)
-//     .then(data => ({ data }))
-//     .catch(err => ({ err }));
-// }
-
 
 import axios from 'axios';
-// import {message} from 'antd';
-
 // import {getToken} from './index';
 //创建了一个请求头
-
 const instance = axios.create({
     baseURL: '/api', //是用于请求的服务器URL
     timeout:1000, //请求超时时间  如果请求花费超过了timeout 的时间，请求将被中断
@@ -63,3 +29,24 @@ instance.interceptors.response.use((response)=>{
     return Promise.reject(error);
 })
 export default instance;
+
+
+
+
+// const instance = axios.create();
+export function get(url,config){
+  return instance.get(url,config);
+}
+
+export function post(url,data,config){
+  return instance.post(url,data,config);
+}
+
+export function put(url,data,config){
+  return instance.put(url,data,config);
+}
+
+export function remove(url,config){
+  return instance.remove(url,config);
+}
+

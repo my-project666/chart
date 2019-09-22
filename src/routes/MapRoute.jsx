@@ -19,7 +19,7 @@ const MapRouter=({routes})=>{
                             } }></Route>
                             
                         }
-                        return  <Redirect key={index} exact from="/" to="/login"></Redirect>
+                        return  <Redirect key={index} exact from="/" to="/"></Redirect>
                     })
                  } 
             </Switch>      

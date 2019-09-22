@@ -1,6 +1,6 @@
 import React from 'react';
 import { Router } from 'dva/router';
-import routes from './router';
+import routes from './routes';
 import MapRoute from "../routes/MapRoute";
 function RouterConfig({ history }) {
   return (

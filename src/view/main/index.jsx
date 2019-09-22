@@ -94,34 +94,6 @@ class Main extends Component {
                 }
             ]
         }
-        const options= {
-            xAxis: {
-                type: 'category',
-                data: ['08-01', '08-02', '08-03', '08-04', '08-05', '08-06', '08-07', '08-09', '08-10', '08-11', '08-12', '08-13']
-            },
-            yAxis: {
-                type: 'value',
-            },
-            series: [
-                {
-                    name: "理论",
-                    data: [50, 45, 44, 55, 57, 69, 61, 58, 52, 51, 35, 32],
-                    type: 'bar',
-                    color: "red"
-                },
-                {
-                    name: "技能",
-                    data: [21, 25, 34, 25, 62, 49, 44, 58, 50, 59, 22, 35],
-                    type: 'bar',
-                    color: "yellow"
-                }
-            ],
-
-            legend: {
-                data: ['技能', '理论']
-            },
-        };
-
         return (
             <div className={styles.wrap}>
                 <header className={styles.header}>
@@ -165,7 +137,7 @@ class Main extends Component {
                             <div className={styles.lef}>
                                  <span>2019-08-30</span>
                                  <p>今日分析解决方案</p>
-                                 <a href="#/main">点击查看历史记录></a>
+                                 <a href="#/main">点击查看历史记录</a>
                             </div>
                             <div className={styles.rig}>
                                 七彩小虫延着不断生长的树枝飞翔，一圈圈环绕，只见大树被彩虹似的光圈缠绕，发出耀眼的光芒，
