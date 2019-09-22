@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+@media screen and (max-width:321px){
+  .m-navlist{font-size:15px}
+}
+
+@media screen and (min-width:321px) and (max-width:400px){
+  .m-navlist{font-size:16px}
+}
+
+@media screen and (min-width:400px){
+  .m-navlist{font-size:18px}
+}
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  width: 100%;
+  height: 50px;
+}
+.box .box_header {
+  width: 100%;
+  height: 62px;
+  background-color: rgb(63, 81, 181);
+}
+
+.box .box_header p {
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  line-height: 62px;
+}
+
+.box .box_con {
+  width: 100%;
+  height: 330px;
+  margin-top: 120px;
+}
+.box .box_con .box_con_c{
+  width: 335px;
+  height: 330px;
+  text-align: center;
+  margin: 0 auto;
+}
+.box .box_con .box_con_h4{
+  width: 100%;
+  text-align: center;
+}
+.box .box_con .box_con_h4 h2 {
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(16, 16, 16);
+  text-decoration: none;
+}
+.int{
+  width: 100%;
+  height: 40px;
+}
+.con{
+  margin-left: 0;
+}
+.login_form_button{
+  width: 100%;
+}
+.register{
+  width: 335px;
+  height: 330px;
+}
+.ant_col{
+  width:335px !important;
+}
+
+/*
+keyStudent
+*/
+
+@media screen and (max-width:1700px) and (min-width:763px){
+  .keyStudent{
+    width: 100%;
+    height: 100%;
+  }
+  .keyStudent .keyStudent_top{
+    width: 100%;
+    height: 62px;
+    background-color: rgb(0, 118, 255);
+  }
+  .keyStudent .keyStudent_top p{
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    line-height: 62px;
+  }
+  .keyStudent .keyStudent_con{
+    width: 100%;
+    height: 85px;
+    margin-top:3%;
+  }
+  .keyStudent_con_c{
+    width: 90%;
+    height: 85px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .keyStudent_con_c p{
+    
+    line-height: 60px;
+  }
+  .keyStudent_con_c span{
+    width:75px;
+    height: 32px;
+    z-index: 8;
+    background-color: rgb(230, 241, 252);
+    border-color: rgb(163, 208, 253);
+    border-radius: 4px;
+    font-size: 10px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    margin-top:2%;
+    opacity: 1;
+    display: block;
+    text-align: center;
+    color: rgb(25, 137, 250);
+    line-height: 32px;
+    margin-left:3%;
+
+  }
+  .keyStudent_con_c_sp{
+    border: 1px solid #ccc !important;
+    color:#000 !important;
+    background-color:#fff !important;
+  }
+  .keyStudent_tian{
+    width: 90%;
+    margin: 0 auto;
+    height: 60px;
+    padding:13px;
+  }
+  .keyStudent_tian input{
+    width: 140px;
+    height: 30px;
+    border-radius: 2px;
+    outline: none;
+    border: 0;
+    border: 1px solid #ccc;
+    margin-left: 5px;
+  }
+  .keyStudent_tian button{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(230, 241, 252);
+    color: rgb(25, 137, 250);
+    outline: none;
+    border: 0;
+    border: 1px solid;
+    border-color: rgb(163, 208, 253);
+    margin-left: 5px;
+  }
+  .caves{
+    width: 90%;
+    /* padding: 10px; */
+    margin: 0 auto;
+  }
+  .caves_c{
+    height: 534px !important;
+  }
+  .bottom{
+    width: 90%;
+    height: 55px;
+    background-color: rgb(242, 241, 241);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding:0 10px;
+  }
+  .bottom .bottom_p1{
+    width: 100px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-top:15px;
+    color: #000;
+    
+  }
+  .bottom .bottom_p{
+      width: 170px;
+      border-radius: 2px;
+      border: 1px solid #ccc;
+      text-align: center;
+      margin-top:15px;
+      margin-left: 10px;
+      color: #000;
+  }
+  .bottom .bottom_p3{
+    width: 170px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-top:15px;
+    margin-left: 60%;
+    color: #000;
+  }
+  .tanchu{
+    width: 483px;
+    height: 353px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: solid;
+    text-align: center;
+    line-height: 20px;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 1;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    margin: auto;
+    
+  }
+  
+  .tanchu_div{
+    width: 100%;
+    padding-top:5%;
+  }
+ 
+  .tanchu_div p span{
+     
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 22px;
+    text-decoration: none;
+  }
+  .tanchu_in{
+    width: 400px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(220, 223, 230);
+    margin-top:15%;
+  }
+  .tanchu_in input{
+    width: 175px;
+    height: 35px;
+    border: 0;
+    outline: none;
+    border:1px solid;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(220, 223, 230);
+  }
+  .tanchu_in button{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(230, 241, 252);
+    border-color: rgb(163, 208, 253);
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    line-height: 20px;
+    font-weight: normal;
+    font-style: normal;
+    opacity: 1;
+  }
+  .tanchu_ins label{
+    margin-left: -22%;
+    margin-top:5%;
+  }
+  .tanchu_ins_int{
+    width: 175px;
+    height: 35px;
+    border: 0;
+    outline: none;
+    border:1px solid;
+    margin-top:5%;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(220, 223, 230);
+  }
+  .buttons{
+    margin-top:5%;
+    margin-left: 45%;
+  }
+  .buttons .buttons_btn1{ 
+    width: 50px;
+    height: 32px;
+    border-radius: 5px;
+    background: #fff;
+    outline: none;
+    border: 0;
+    border:1px solid #ccc;
+  }
+  .buttons_btn2{
+    width: 50px;
+    height: 32px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    border:1px solid #ccc;
+    background-color: rgb(24, 144, 255);
+    font-family: PingFangSC;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 5%;
+  }
+  .zhe{
+    width: 100%;
+    height: 100%;
+    background: rgba(39, 38, 38, 0.255);
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index:999;
+    /* display: none; */
+    /* opacity:.80; */
+  }
+}
+
+
+@media screen and (min-width:375px) and (max-width:763px){
+  .keyStudent{
+    width: 100%;
+    height: 100%;
+  }
+  .keyStudent .keyStudent_top{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(0, 118, 255);
+  }
+  .keyStudent .keyStudent_top p{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+  }
+  .keyStudent .keyStudent_con{
+    width: 100%;
+    height: 85px;
+    margin-top:3%;
+  }
+  .keyStudent_con_c{
+    width: 90%;
+    height: 65px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .keyStudent_con_c p{
+    font-size: 10px;
+    line-height: 50px;
+  }
+  .keyStudent_con_c span{
+    width:15%;
+    height: 25px;
+    z-index: 8;
+    background-color: rgb(230, 241, 252);
+    border-color: rgb(163, 208, 253);
+    border-radius: 4px;
+    font-size: 6px;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    margin-top:4%;
+    opacity: 1;
+    display: block;
+    text-align: center;
+    color: rgb(25, 137, 250);
+    line-height: 25px;
+    margin-left:1%;
+
+  }
+  .keyStudent_con_c_sp{
+    border: 1px solid #ccc !important;
+    color:#000 !important;
+    background-color:#fff !important;
+  }
+}
+
+
+/*
+  allAchiements
+*/
+.allAchiements{
+  width: 100%;
+  height: 100%;
+}
+.allAchiements_top{
+  width: 100%;
+  height: 62px;
+  background-color: rgb(0, 118, 255);
+}
+.allAchiements_top p{
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+  line-height: 62px;
+}
+.allAchiements_con{
+  width: 90%;
+  height: 90px;
+  border: 1px solid #ccc;
+  margin:5% 5% 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+}
+.allAchiements_con p{
+  margin-left: 7%;
+}
+.allDiv{
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  margin-left:60%;
+}
+.allAchiements_pa{
+  width: 100%;
+  height: auto;
+  margin-top:10px;
+}
+.allAchiements_pa_table{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.allAchiements_pa_table tr{
+  height: 65px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.allAchiements_pa_table tr td{
+  border: 0;
+}
